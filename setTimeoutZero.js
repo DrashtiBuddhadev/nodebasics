@@ -10,6 +10,7 @@ var b=20986;
 //when entire code is first completely executed i.e. from line 1 till the code ends
 //so first synchronous operation multiply gets executed
 //basically it runs after 0 miliseconds ONLY AFTER callstack is empty
+//all in all it will run asoon as the main thread is empty
 setTimeout(()=>{
     console.log("Call me right now");
 },0);
